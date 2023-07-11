@@ -59,7 +59,7 @@ export default {
       formData.append('phone', this.phone);
 
       axios
-        .post('https://formsubmit.co/lukianchukmt@gmail.com/devihu', formData)
+        .post('https://formsubmit.co/47ee0eb6bc90999b5227be1817a49f31', formData)
         .then(response => {
           console.log('Form submitted successfully!', response.data);
           alert('Форма успішно відправлена!');
