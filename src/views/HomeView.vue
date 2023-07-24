@@ -7,7 +7,7 @@
   <h4 class="title_hero"> Лікуємо причини, а не симптоми болю </h4>
   <div class="hero_text"> 
     <p class="text"> СПЕЦІАЛЬНА ПРОПОЗИЦІЯ! 
-      Консультація <s> 500грн </s>    200грн!
+      Консультація <s> 500грн </s>    350грн!
       Запишись на консультацію і отримай пробне заняття у ПОДАРУНОК &#127873; </p>
     <form class="form" @submit.prevent="submitForm"> 
       <input class="input" type="text" placeholder="Ваше ім’я" v-model="name"> 
