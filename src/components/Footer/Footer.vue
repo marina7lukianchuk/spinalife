@@ -4,11 +4,15 @@
     <a class="link_logo" href="#"> 
        SPYNA LIFE
     </a>
-    <a class="adress" href="https://goo.gl/maps/KG4BETUS29LGgfMUA"> просп. Миколи Бажана, 1М</a>
-    <a class="tel" href="tel:0686380717"> +380686380717 </a>
+    <a class="adress" href="https://goo.gl/maps/KG4BETUS29LGgfMUA" target="_blank"> просп. Миколи Бажана, 1М</a>
+    <a class="tel" href="tel:+380686380717"> +380686380717 </a>
     <div class="links"> 
+    <a class="tiktok" href="https://www.tiktok.com/@spynalife?_t=8erIWEChciT" target="_blank"> 
+    </a>
     <a class="insta" href="https://instagram.com/spynalife?igshid=YmM0MjE2YWMzOA==" target="_blank"> </a>
     <a class="faceb" href="https://www.facebook.com/profile.php?id=100088263312222" target="_blank"> </a>
+    <a class="teleg" href="https://xn--80affa3aj0al.xn--80asehdb/#@spynalife" target="_blank"> </a>
+
 </div>
 </div>
 </div>
@@ -96,7 +100,7 @@ a {
 .links {
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
     max-width: 120px;
 }
@@ -120,6 +124,29 @@ a {
         font-weight: normal; 
         color: #ffffffe0;
     } }
+
+.tiktok {
+    &::before {
+        content: '\f316';
+        font-size: 42px;
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal; 
+        color: #ffffffe0;
+    }
+}
+
+.teleg {
+    &::before {
+        content: '\f2c6';
+        font-size: 40px;
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal; 
+        color: #ffffffe0;
+    }
+}
+
 
 @media screen and (max-width: 576px) {
     .footer_container {

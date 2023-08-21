@@ -14,6 +14,7 @@
             Особливе значення при цьому, як правило, має робота з м'язовою системою.
             Кінезіотерапія та масаж дозволяють нормалізувати тонус м'язів та покращити обмін речовин в навколохребетних тканинах.
           </p>
+          <button class="for_chat_blue" @click.stop="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
         </div>
       </HorizontalCollapseItem>
   
@@ -27,10 +28,10 @@
             <p class="horizontal-collapse__body">
                 Метод кінезітерапії, полягає у виконанні правильних, безпечних вправ на багатофункціональних 
                 реабілітаційних тренажерах. При виконанні вправ за методикою, окрім м’язів, в роботу влючаются 
-                зв’язки і сухожилля, нервова система, серцево-судинна і дихальна система, органи травлення, 
-                ендокринна система. У організмі при цьому виробляються особливі речовини – ендорфіни, які мають
+                зв’язки і сухожилля, нервова система, серцево-судинна і дихальна система. У організмі при цьому виробляються особливі речовини – ендорфіни, які мають
                  знеболюючу дію. Впливаючи на м’язову систему, запускаються механізми саморегуляції в організмі.
             </p>
+            <button class="for_chat_white" @click.stop="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
           </div>
         </HorizontalCollapseItem>
   
@@ -48,6 +49,7 @@
                   тільки прискорюють процес руйнування суглобів. Для суглобів найкращими видами занять
                    вважаються плавання, їзда на велосипеді, скандинавська ходьба.
             </p>
+            <button class="for_chat_blue" @click.stop="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
           </div>
         </HorizontalCollapseItem>
   
@@ -64,6 +66,7 @@
                   Усі вправи виконуються на медичних тренажерах і під обов’язковим наглядом фахівця,
                    який навчає пацієнта вправам і контролює процес.
             </p>
+            <button class="for_chat_white" @click.stop="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
           </div>
         </HorizontalCollapseItem>
   
@@ -81,6 +84,7 @@
                переростає в екструзію, тобто розрив кільця, й міжхребцевий диск випинається назовні. 
                Це і є грижа.Лікування обох захворювань проводиться комплексно. 
             </p>
+            <button class="for_chat_blue" @click.stop="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
           </div>
         </HorizontalCollapseItem>
       </ul>
@@ -93,7 +97,14 @@
     name: 'HorizontalCollapse',
     components: {
       HorizontalCollapseItem
+    },
+    methods: {
+    startCall() {
+      const phoneNumber = "+380686380717";
+      const callLink = "tel:" + phoneNumber;
+      window.location.href = callLink;
     }
+  }
   };
   </script>
   
@@ -212,6 +223,31 @@
   }
   .arrow {
     display: none;
+  }
+  .for_chat_blue  {
+    padding: 13px 30px;
+    background-color: transparent;
+    border: 3px solid #3341dcd8;
+    @include text_style ('Montserrat', 17px, 20px, 700, #3341dcd8);
+    cursor: pointer;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 26;
+  }
+
+  .for_chat_white {
+    padding: 13px 30px;
+    background-color: transparent;
+    border: 3px solid #FFFFFF;
+    @include text_style ('Montserrat', 17px, 20px, 700, #FFFFFF);
+    cursor: pointer;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 26;
   }
 
   @media screen and (max-width: 1024px) {
@@ -368,6 +404,23 @@
       max-height: 50px;
       margin: 10px auto 10px;
       color: #ffffffb5;
+    }
+    .for_chat_blue  {
+      margin-top: 10px;
+      padding: 20px 13px;
+      background-color: transparent;
+      border: 2px solid #3341dcd8;
+      @include text_style ('Montserrat', 17px, 19px, 700, #3341dcd8);
+      max-width: 250px;
+    }
+  
+    .for_chat_white {
+      padding: 20px 13px;
+      background-color: transparent;
+      border: 2px solid #FFFFFF;
+      @include text_style ('Montserrat', 17px, 19px, 700, #FFFFFF);
+      margin-top: 10px;
+      max-width: 250px;
     }
   }
 

@@ -1,9 +1,9 @@
 <template>
 <div class="map_wrapper">
 <h4 class="map_title"> До нас зручно добиратись </h4>
-<p class="sub_map"> натискай на посилання "Збільшити карту" зліва, для того щоб відкрити Google карти та обрати найкоротший шлях до нашого центу, або телефонуй за номером, що вказаний на сайті </p>
+<p class="sub_map"> Натискай на посилання "Збільшити карту" зліва, для того щоб відкрити Google карти та обрати найкоротший шлях до нашого центу, або телефонуй за номером, що вказаний на сайті </p>
 <div class="map_container"> 
-<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d635.74976656275!2d30.640854269647956!3d50.403854998223956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTDCsDI0JzEzLjkiTiAzMMKwMzgnMjkuNCJF!5e0!3m2!1sru!2sua!4v1687104448716!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d1271.4995330778506!2d30.640854!3d50.403855!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTDCsDI0JzEzLjkiTiAzMMKwMzgnMjkuNCJF!5e0!3m2!1sua!2sua!4v1691520987313!5m2!1sua!2sua"></iframe>
 </div>
 </div>
 </template>

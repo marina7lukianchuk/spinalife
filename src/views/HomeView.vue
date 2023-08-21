@@ -12,7 +12,7 @@
     <form class="form" @submit.prevent="submitForm"> 
       <input class="input" type="text" placeholder="Ваше ім’я" v-model="name"> 
       <input class="input email_input" type="text" placeholder="Номер телефону" v-model="phone"> 
-      <button class="btn_hero" type="submit" value=""> записатись </button>
+      <button class="btn_hero" type="submit" value=""> ЗАПИСАТИСЬ </button>
     </form>
   </div>
 
@@ -154,7 +154,7 @@ export default {
 }
 .btn_hero {
   display: block;
-  padding: 20px 80px;
+  padding: 20px 50px;
   background-color: #afb7d5cc;
   border: 1px solid #7080bbd4;
   @include text_style ('Montserrat', 25px, 27px, 600, #FFF) ;
@@ -223,7 +223,7 @@ margin-bottom: 40px;
      margin: 25px auto 25px;
  }
  .btn_hero {
-  padding: 20px 60px;
+  padding: 20px 50px;
   @include text_style ('Montserrat', 24px, 25px, 600, #FFF) ;
 }
 

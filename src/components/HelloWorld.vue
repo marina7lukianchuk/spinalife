@@ -1,7 +1,7 @@
 <template>
   <div class="services_wrapper"> 
   <h5 class="services_title"> Послуги </h5>
-  <p class="sub_services"> широкий спектр послуг для індивідуальних потреб кожного клієнта. Iндивідуальний підхід дозволяє підібрати вправи та режими, що найбільше відповідають потребам конкретного пацієнта та сприяють досягненню його цілей.</p>
+  <p class="sub_services"> Широкий спектр послуг для індивідуальних потреб кожного клієнта. Iндивідуальний підхід дозволяє підібрати вправи та режими, що найбільше відповідають потребам конкретного пацієнта та сприяють досягненню його цілей.</p>
   <div class="services">
   <div class="items" v-for="item in items" :key="item.id"> 
   <span class="services_item"> 
@@ -92,8 +92,8 @@ export default {
 width: 100%;
 max-width: 360px;
 background-color: #bfc7daa8;
-padding: 20px 50px ;
-@include text_style ('Rubik', 22px, 26px, 700, #2a2a2e) ;
+padding: 18px 50px 20px;
+@include text_style ('Rubik', 22px, 26px, 700, #3341dcd8) ;
   text-transform: uppercase;
   text-align: center;
   align-items: center;
@@ -104,15 +104,15 @@ padding: 20px 50px ;
   display: flex;
   flex-direction: column;
   background-image: url(../assets/img/jar12.jpg);
-  background-size: 55% auto;
+  background-size: 53% auto;
   background-repeat: no-repeat;
-  background-position: 50% 0%;
+  background-position: 50% 2%;
 
 }
 
 .items:nth-child(1) {
   background-image: url("../assets/img/gym.svg");
-  background-size: 40% auto;
+  background-size: 39% auto;
   background-position: 50% 25%;
 }
 
@@ -124,20 +124,20 @@ padding: 20px 50px ;
 
 .items:nth-child(3) {
   background-image: url("../assets/img/tap.svg");
-  background-size: 30% auto;
-  background-position: 50% 20%;
+  background-size: 28% auto;
+  background-position: 50% 22%;
 }
 
 .items:nth-child(5) {
   background-image: url("../assets/img/masage1.png");
-  background-size: 35% auto;
-  background-position: 50% 15%;
+  background-size: 32% auto;
+  background-position: 50% 19%;
 }
 
 .items:nth-child(6) {
   background-image: url("../assets/img/stimul2.png");
-  background-size: 29% auto;
-  background-position: 50% 19%;
+  background-size: 27% auto;
+  background-position: 50% 21%;
 }
 
 .description {
@@ -287,7 +287,7 @@ align-items: center;
     width: 100%;
     max-width: 360px;
     background-color: #bfc7da71;
-    @include text_style ('Rubik', 22px, 26px, 700, #2a2a2e) ;
+    @include text_style ('Rubik', 22px, 26px, 700, #3341dcd8) ;
     }
 
   .sub_services {

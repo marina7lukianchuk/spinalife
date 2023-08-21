@@ -1,7 +1,7 @@
 <template> 
 <div class="consult"> 
     <h4 class="consult_title"> Як проходить перша консультація?  </h4>
-    <p class="sub"> м'язове тестування - точний інструмент для отримання відповідей.
+    <p class="sub"> М'язове тестування - точний інструмент для отримання відповідей.
         Клієнт відразу отримує чітку відповідь на першопричину болю. 
         Після тесту спеціаліст чітко визначає, що робити. </p>
 <div class="text_wrapper"> 
@@ -32,7 +32,7 @@
     <form class="form" @submit.prevent="submitForm"> 
       <input class="input" type="text" placeholder="Ваше ім’я" v-model="name"> 
       <input class="input email_input" type="text" placeholder="Номер телефону" v-model="phone"> 
-      <button class="btn_hero" type="submit" value="записатись"> записатись </button>
+      <button class="btn_hero" type="submit" value="записатись">ЗАПИСАТИСЬ</button>
 </form>
 </div>
 </div>
@@ -174,7 +174,7 @@ position: sticky;
 
 .btn_hero {
   display: block;
-  padding: 15px 70px;
+  padding: 15px 50px;
   background-color: #afb7d5de;
   border: 1px solid #7080bbd4;
   @include text_style ('Montserrat', 25px, 27px, 600, #fdfbfb);

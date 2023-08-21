@@ -1,7 +1,7 @@
 <template> 
     <div class="video"> 
     <h3 class="video_title"> Ваші відгуки </h3>
-    <p class="sub_video"> нам дуже приємно отримувати від вас позитивні фідбеки, а ще приємніше, коли позитивний результат бачить не лише лікар, але й відчувають пацієнти. Ми працюємо для того, щоб Ви відчували себе краще. </p>
+    <p class="sub_video"> Нам дуже приємно отримувати від вас позитивні фідбеки, а ще приємніше, коли позитивний результат бачить не лише лікар, але й відчувають пацієнти. Ми працюємо для того, щоб Ви відчували себе краще. </p>
     <div class="reviews"> 
     <iframe class="review_video" width="560" height="315" src="https://www.youtube.com/embed/-vIG-215BoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   <div class="screen"> 

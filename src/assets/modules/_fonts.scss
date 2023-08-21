@@ -113,3 +113,15 @@
      font-weight: normal;
      font-style: normal;
    }
+
+   @font-face {
+     font-family: 'fontello';
+     src: url('../fonts/fontello_teleg/font/fontello.eot');
+     src: url('../fonts/fontello_teleg/font/fontello.eot') format('embedded-opentype'),
+          url('../fonts/fontello_teleg/font/fontello.woff2') format('woff2'),
+          url('../fonts/fontello_teleg/font/fontello.woff') format('woff'),
+          url('../fonts/fontello_teleg/font/fontello.ttf') format('truetype'),
+          url('../fonts/fontello_teleg/font/fontello.svg') format('svg');
+     font-weight: normal;
+     font-style: normal;
+   }
