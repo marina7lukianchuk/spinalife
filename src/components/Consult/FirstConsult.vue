@@ -284,7 +284,7 @@ position: sticky;
     margin-bottom: 40px; 
     &::before {
       background-image: url(../../assets/img/consult_576.jpg), url(../../assets/img/consult_bg2two.jpg);
-      background-size: 100% auto, 100% auto;
+      background-size: 100% 38%, 100% auto;
       background-position: top, bottom;
       background-repeat: no-repeat, no-repeat;
     } }

@@ -140,7 +140,7 @@ margin: 0 auto 80px ;
    &::before {
   content: " ";
   background-image: url(../../assets/img/crop_576_prob.jpg);
-  background-size: 100% auto;
+  background-size: 100% 512px;
 
     }
   }

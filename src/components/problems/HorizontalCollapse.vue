@@ -14,7 +14,7 @@
             Особливе значення при цьому, як правило, має робота з м'язовою системою.
             Кінезіотерапія та масаж дозволяють нормалізувати тонус м'язів та покращити обмін речовин в навколохребетних тканинах.
           </p>
-          <button class="for_chat_blue" @click.stop="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
+          <button class="for_chat_blue" @click="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
         </div>
       </HorizontalCollapseItem>
   
@@ -31,7 +31,7 @@
                 зв’язки і сухожилля, нервова система, серцево-судинна і дихальна система. У організмі при цьому виробляються особливі речовини – ендорфіни, які мають
                  знеболюючу дію. Впливаючи на м’язову систему, запускаються механізми саморегуляції в організмі.
             </p>
-            <button class="for_chat_white" @click.stop="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
+            <button class="for_chat_white" @click="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
           </div>
         </HorizontalCollapseItem>
   
@@ -49,7 +49,7 @@
                   тільки прискорюють процес руйнування суглобів. Для суглобів найкращими видами занять
                    вважаються плавання, їзда на велосипеді, скандинавська ходьба.
             </p>
-            <button class="for_chat_blue" @click.stop="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
+            <button class="for_chat_blue" @click="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
           </div>
         </HorizontalCollapseItem>
   
@@ -66,10 +66,9 @@
                   Усі вправи виконуються на медичних тренажерах і під обов’язковим наглядом фахівця,
                    який навчає пацієнта вправам і контролює процес.
             </p>
-            <button class="for_chat_white" @click.stop="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
+            <button class="for_chat_white" @click="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
           </div>
         </HorizontalCollapseItem>
-  
         <HorizontalCollapseItem className="horizontal-collapse__item--5">
           <div :class="{'horizontal-collapse__inactive-content': !isActive}">
             <h2 class="horizontal-collapse__heading">Протрузії і грижі</h2>
@@ -84,9 +83,9 @@
                переростає в екструзію, тобто розрив кільця, й міжхребцевий диск випинається назовні. 
                Це і є грижа.Лікування обох захворювань проводиться комплексно. 
             </p>
-            <button class="for_chat_blue" @click.stop="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
+            <button class="for_chat_blue" @click="startCall"> ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ </button>
           </div>
-        </HorizontalCollapseItem>
+        </HorizontalCollapseItem>  
       </ul>
     </section>
   </template>
@@ -168,9 +167,11 @@
         // color: #fff;
         .horizontal-collapse__inactive-content {
           opacity: 0;
+          cursor: pointer;
         }
         .horizontal-collapse__active-content {
           opacity: 1;
+          cursor: pointer;
         }
       }
     }
@@ -183,6 +184,7 @@
       position: absolute;
       bottom: 2rem;
       left: 1rem;
+      cursor: pointer;
       .horizontal-collapse__heading {
         user-select: none;
         cursor: default;
@@ -373,6 +375,10 @@
         }
       .horizontal-collapse__active-content {
       opacity: 1;
+      .active {
+        display: block;
+        pointer-events: none;
+      }
       }
       }
       }
@@ -387,6 +393,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
       .horizontal-collapse__heading {
       writing-mode: initial;
       transform: none;
@@ -404,6 +411,7 @@
       max-height: 50px;
       margin: 10px auto 10px;
       color: #ffffffb5;
+      cursor: pointer;
     }
     .for_chat_blue  {
       margin-top: 10px;
@@ -412,6 +420,7 @@
       border: 2px solid #3341dcd8;
       @include text_style ('Montserrat', 17px, 19px, 700, #3341dcd8);
       max-width: 250px;
+      display: none;
     }
   
     .for_chat_white {
@@ -421,6 +430,7 @@
       @include text_style ('Montserrat', 17px, 19px, 700, #FFFFFF);
       margin-top: 10px;
       max-width: 250px;
+      display: none;
     }
   }
 
@@ -481,6 +491,10 @@
         }
       .horizontal-collapse__active-content {
       opacity: 1;
+      pointer-events: none;
+      .active {
+        display: block;
+      }
       }
       }
       }
@@ -495,6 +509,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
       .horizontal-collapse__heading {
       writing-mode: initial;
       transform: none;

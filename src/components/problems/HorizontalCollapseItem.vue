@@ -61,7 +61,7 @@ import { mixin as VueClickAway } from "vue3-click-away";
         this.itemMinWidth = 400;
         this.itemMaxWidth = 400;
         this.itemMinHeight = 200;
-        this.itemMaxHeight = 450;
+        this.itemMaxHeight = 350;
         this.itemMinWidthMobile = 400;
         this.itemMaxWidthMobile = 400;
       } else if (windowWidth <= 768) {

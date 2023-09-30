@@ -297,22 +297,24 @@ align-items: center;
     }
 
     .items {
-      background-position: 50% 9%;
+      background-position: 50% 22%;
     
     }
     
     .items:nth-child(1) {
-      background-position: 50% 28%;
+      background-position: 50% 33%;
     }
     
     .items:nth-child(2) {
-      background-position: 50% 32%;
+      background-position: 50% 33%;
     }
     
     .items:nth-child(3) {
-      background-position: 50% 30%;
+      background-position: 50% 31%;
     }
-
+    .items:nth-child(5) {
+      background-position: 50% 29%;
+    }
     .services_title  {
       @include text_style ('Montserrat', 28px, 28px, 700, #3341dcd8); }
 
