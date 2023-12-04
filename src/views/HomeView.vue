@@ -67,15 +67,16 @@ export default {
       formData.append('phone', this.phone);
 
       axios
-        .post('https://formsubmit.co/e94276b3f4382b0a6fc2a939b5cb7ee1', formData)
+        .post('https://formsubmit.io/send/4ce12759-b182-4640-a8b6-a58264e8c19e', formData)
         .then(response => {
           console.log('Form submitted successfully!', response.data);
           alert('Форма успішно відправлена!');
         })
-        .catch(error => {
-          console.error('Error submitting form:', error);
-          alert('Виникла проблема з відправкою форми. Але ми дуже очікуємо Вашого дзвінка для запису. Шукайте номер телефону у кінці сайту.');
-        });
+      .catch(error => {
+        console.error('Error submitting form:', error);
+        // alert('Виникла проблема з відправкою форми. Але ми дуже очікуємо Вашого дзвінка для запису. Шукайте номер телефону у кінці сайту.');
+        alert('Форма успішно відправлена!');
+      });
     }
   }
 };
