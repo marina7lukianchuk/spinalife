@@ -2,13 +2,13 @@
   <div class="about">
     <img class="price" src="../assets/img/price.jpg">
     <div class="main_title">
-      <h3 class="price_title"> ПРАЙС </h3>
+      <h3 class="price_title">ПРАЙС</h3>
     </div>
     <div class="price_wrapper">
       <div class="price_block">
         <div class="price_item item2">
-          <div class="item_title"> Консультація фізичного терапевта</div>
-          <div class="price_amount"> 500 грн </div>
+          <div class="item_title">Консультація фізичного терапевта</div>
+          <div class="price_amount">500 грн</div>
         </div>
         <p class="price_service-text price_service-text--list">Включає в себе:</p>
         <ul class="price_service-list">
