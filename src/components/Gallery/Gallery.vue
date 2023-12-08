@@ -31,13 +31,14 @@
                   </div>
             </div>
       </div>
+      
 </template>
 
 <script>
-
 export default {
-      name: "Gallery"
-}
+      name: "Gallery",
+};
+
 </script>
 
 <style  lang="scss">
