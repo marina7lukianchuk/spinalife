@@ -26,7 +26,6 @@
     <Results />
     <FirstConsult />
     <Youtube />
-    <GoogleReviews />
     <Map />
     <Footer />
   </div>
@@ -40,7 +39,6 @@ import Problems from '@/components/problems/Problems.vue';
 import Results from '@/components/results/Results.vue';
 import FirstConsult from '@/components/Consult/FirstConsult.vue';
 import Youtube from '@/components/Youtube/Youtube.vue';
-import GoogleReviews from "@/components/GoogleReviews/GoogleReviews.vue"
 import Map from '@/components/Map/Map.vue';
 import Footer from '@/components/Footer/Footer.vue';
 import axios from 'axios';
@@ -53,7 +51,6 @@ export default {
     Results,
     FirstConsult,
     Youtube,
-    GoogleReviews,
     Map,
     Footer
   },
