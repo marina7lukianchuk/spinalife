@@ -407,7 +407,7 @@ export default {
    line-height: 1.5;
  }
 
- .special_offer--text span {
+ .special_offer--text .special_offer--small {
    color: #3341dcd8;
  }
 
