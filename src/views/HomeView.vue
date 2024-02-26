@@ -10,8 +10,8 @@
             <p class="special_offer">СПЕЦІАЛЬНА ПРОПОЗИЦІЯ!</p>
             <p class="special_offer--text">
               Запишись на консультацію зараз і отримай 500 грн на свій депозит
-              <span class="special_offer--small">При купівлі абонемента в день консультації — +1 заняття в
-                подарунок</span>
+              <p class="special_offer--small">При купівлі абонемента в день консультації — +1 заняття в
+                подарунок</p>
             </p>
           </div>
           <form class="form" @submit.prevent="submitForm">
