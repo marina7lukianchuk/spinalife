@@ -8,8 +8,11 @@
         <div class="hero_text">
           <div class="text">
             <p class="special_offer">СПЕЦІАЛЬНА ПРОПОЗИЦІЯ!</p>
-            <p class="special_offer--text"> Консультація <s> 500грн </s> 200грн!
-              Запишись на консультацію і отримай пробне заняття у ПОДАРУНОК &#127873; </p>
+            <p class="special_offer--text">
+              Запишись на консультацію зараз і отримай 500 грн на свій депозит
+              <span class="special_offer--small">При купівлі абонемента в день консультації — +1 заняття в
+                подарунок</span>
+            </p>
           </div>
           <form class="form" @submit.prevent="submitForm">
             <input class="input" type="text" placeholder="Ваше ім’я" v-model="name">
@@ -23,6 +26,7 @@
     <HelloWorld />
     <Gallery />
     <Problems />
+    <Specialists />
     <Results />
     <FirstConsult />
     <Youtube />
@@ -36,6 +40,7 @@
 
 import Gallery from '@/components/Gallery/Gallery.vue';
 import HelloWorld from '@/components/HelloWorld.vue';
+import Specialists from '@/components/Specialists/Specialists.vue'
 import Problems from '@/components/problems/Problems.vue';
 import Results from '@/components/results/Results.vue';
 import FirstConsult from '@/components/Consult/FirstConsult.vue';
@@ -50,6 +55,7 @@ export default {
     Gallery,
     HelloWorld,
     Problems,
+    Specialists,
     Results,
     FirstConsult,
     Youtube,
@@ -174,6 +180,10 @@ export default {
 
  .special_offer--text {
    line-height: 1.5;
+ }
+
+ .special_offer--small {
+   @include text_style ('Montserrat', 20px, 23px, 500, #fceeeee7);
  }
 
  .btn_hero {
