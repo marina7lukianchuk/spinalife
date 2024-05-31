@@ -38,22 +38,22 @@
           <div class="item_title"> Заняття кінезітерапією</div>
         </div>
         <p class="price_service-text dflex">1 заняття з реабілітологом<span class="price_amount"> 500 грн </span></p>
-        <p class="price_service-text dflex">Абонемент 12 занять<span class="price_amount"> 4 200 грн </span></p>
-        <p class="price_service-text dflex">Абонемент 24 занять<span class="price_amount"> 7 700 грн </span></p>
-        <p class="price_service-text dflex">Абонемент 36 занять<span class="price_amount"> 10 100 грн </span></p>
-        <p class="price_service-text fw500">Кожне заняття канізтерапії проводиться кваліфікованим реабілітологом</p>
+        <p class="price_service-text dflex">Абонемент 12 занять<span class="price_amount"> 4 600 грн </span></p>
+        <p class="price_service-text dflex">Абонемент 24 заняття<span class="price_amount"> 8 500 грн </span></p>
+        <p class="price_service-text dflex">Абонемент 36 занять<span class="price_amount"> 10 900 грн </span></p>
+        <p class="price_service-text fw500">Кожне заняття кінезітерапії проводиться кваліфікованим реабілітологом</p>
       </div>
 
       <div class="price_block">
         <div class="price_item item2">
           <div class="item_title">Масаж</div>
         </div>
-        <p class="price_service-text dflex">Сеанс масажу 20 хв<span class="price_amount"> 400 грн </span></p>
-        <p class="price_service-text dflex">Сеанс масажу 30 хв<span class="price_amount"> 450 грн </span></p>
-        <p class="price_service-text dflex">6 сеансів масажу 20 хв<span class="price_amount"> 1 800 грн </span></p>
-        <p class="price_service-text dflex">6 сеансів масажу 30 хв<span class="price_amount"> 2 100 грн </span></p>
-        <p class="price_service-text dflex">Загальний масаж тіла 60 хв<span class="price_amount"> 800 грн </span></p>
-        <p class="price_service-text dflex">6 сеансів загального масажу тіла 60 хв<span class="price_amount"> 3 900 грн
+        <p class="price_service-text dflex">Сеанс масажу 20 хв<span class="price_amount"> 450 грн </span></p>
+        <p class="price_service-text dflex">Сеанс масажу 30 хв<span class="price_amount"> 500 грн </span></p>
+        <p class="price_service-text dflex">6 сеансів масажу 20 хв<span class="price_amount"> 2 100 грн </span></p>
+        <p class="price_service-text dflex">6 сеансів масажу 30 хв<span class="price_amount"> 2 400 грн </span></p>
+        <p class="price_service-text dflex">Загальний масаж тіла 60 хв<span class="price_amount"> 850 грн </span></p>
+        <p class="price_service-text dflex">6 сеансів загального масажу тіла 60 хв<span class="price_amount"> 4 200 грн
           </span></p>
       </div>
 
@@ -64,7 +64,7 @@
         <p class="price_service-text dflex">Кінезіотейпування однієї зони<span class="price_amount"> 150 грн </span></p>
         <p class="price_service-text dflex">Баночна терапія<span class="price_amount"> 250 грн </span></p>
         <p class="price_service-text dflex">Голкорефлексотерапія<span class="price_amount"> 450 грн </span></p>
-        <p class="price_service-text dflex">6 процедур голкорефлексотерапії<span class="price_amount"> 1 800 грн </span>
+        <p class="price_service-text dflex">6 процедур голкорефлексотерапії<span class="price_amount"> 2 100 грн </span>
         </p>
         <p class="price_service-text dflex">Міостимуляція<span class="price_amount"> 350 грн </span></p>
         <p class="price_service-text dflex">6 сеансів міостимуляції<span class="price_amount"> 1 800 грн
